@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> jack russell terrier club </title>
+    <!-- link (enter) -->
+    <!-- / -> 폴더 -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+    <!-- 페비콘 -->
+    <link rel="shoutcut icon" href="images/fv.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- script:src -->
+    <script src="script/jquery-1.11.3.js"></script>
+    <script src="script/jquery.innerfade.js"></script>
+    <script>
+        $(function(){
+            $('.inner-fade').innerfade({
+                animationtype:'fade',
+                timeout:2000 // 2000 -> 2초 (스크립트가 다 돌아가는 시간)
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- #wrap>header+section.me+section.photo+footer -->
+    <div id="wrap">
+        <!-- header -->
+        <header>
+            <!-- .logo+.menu (enter) -->
+            <div class="innerheader">  
+            <div class="logo">
+                <!-- a{JIEUN} -->
+                <!-- <a href="http://naver.com">JIEUN</a> -->
+                <!-- <a href="https://www.naver.com/" target="_blank"> : 링크 새창으로 열기 -->
+                <a href="index.html"><img src="images/jrtlogo.png" alt="로고"></a>
+            </div>
+            <div class="menu">
+                <!-- ul>li*6>a{menu} -->
+                <ul>
+                    <li><a href="#">특징</a></li>
+                    <li><a href="#">관리정보</a></li>
+                    <li><a href="#">관련품종</a></li>
+                    <li><a href="#">link</a></li>
+                    <li><a href="bbs.html">커뮤니티</a></li>
+                </ul>
+            </div>
+        </div>
+        </header>
+        <div class="inner-fade">           
+                <ul class="inner-fade">
+                <li><a href="#"><img src="images/slider2.png" alt="소개"></a></li>
+                <li><a href="#"><img src="images/gdwk-1.jpg" alt="그룹산책"></a></li>
+                <li><a href="#"><img src="images/slider3-2.jpg" alt="관련품종"></a></li>
+                </ul>
+        </div>
+
+        <!-- section -->
+        <section class="info">
+            <!-- .notice+.banner -->
+            <div class="notice">
+                <h1>NOTICE</h1>
+                <!-- ul>li>span>t+a+span -->
+                <ul>
+                    <li><span class="a1">[공지사항]</span><a href="#">잭 러셀 테리어 어질리티 쇼 참가자 신청안내</a><span>21-03-12</span></li>
+                    <li><span class="a1">[공지사항]</span><a href="#">브리더 교육 일정안내</a><span>21-03-12</span></li>
+                    <li><span class="a2">[보도자료]</span><a href="#">그룹산책교육 신청안내</a><span>21-03-12</span></li>
+                    <li><span class="a2">[보도자료]</span><a href="#">2021년도 1분기 잭 러셀 테리어 견주모임안내</a><span>21-03-12</span></li>
+                    <li><span class="a2">[보도자료]</span><a href="#">놀림당하는 제 이름을 바꾸고싶어요!</a><span>21-03-12</span></li>
+                    <li><span class="a3">[고민상담]</span><a href="#">봄나들이 가실분 신청받아요~~! 마감임박</a><span>21-03-12</span></li>
+                    <li><span class="a3">[고민상담]</span><a href="#">놀림당하는 제 이름을 바꾸고싶어요!</a><span>21-03-12</span></li>
+                </ul>
+            </div>
+            <div class="banner">
+            <!-- a>img -->
+            <a href="#"><img src="images/jrt-agility2.png" alt="배너">
+            <span class=position> →신청하기
+            </span></a>
+        </div>
+        </section>
+        <section class="photo">
+            <h2 class="blind">포토갤러리</h2>
+        <ul>
+            <li>
+                <a href="#">
+                <p class=img><img src="images/1Jack_Russell_Terrier.jpg" alt="잭러셀1">
+                </p>
+            </a>
+            </li>
+            <li><a href="#">
+                <p class=img><img src="images/2jrt.jpeg" alt="잭러셀2">
+                </p>
+            </a>
+            </li>
+            <li>
+                <a href="#"><p class=img><img src="images/3jrt.jpg" alt="잭러셀3">
+                </p></a>
+            </li>
+            <li>
+                <a href="#"><p class=img><img src="images/4jlt.jpg" alt="잭러셀4">
+                </p></a>
+            </li>
+            <li><a href="#"><p class=img><img src="images/5jlt.jpg" alt="잭러셀5">
+            </p></a>
+            </li>
+            <li><a href="#"><p class=img><img src="images/6jlt.jpg" alt="잭러셀6">
+            </p></a>
+            </li>
+        </ul>
+        </section>
+
+        <!-- footer -->
+        <footer>
+
+            <div class="blogo">
+                <a href="index.html"><img src="images/jrtblogo.png" alt="로고"></a>
+            </div>
+            <div class="copyright">
+                <p>
+                jack russell terrier club 운영자 구지은 <br />
+                Copyright &copy; 2021 <a href="mailto:samsung@samsung.co.kr">jack russell terrier club</a> All Rights Reserved.
+                </p>
+            </div>
+            <div class="sns">
+                <ul>
+                    <li><a href="#"><img src="images/f.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="images/y.png" alt="유튜브"></a></li>
+                    <li><a href="#"><img src="images/t.png" alt="트위터"></a></li>
+                    <li><a href="#"><img src="images/b.png" alt="밴드"></a></li>
+                    <li><a href="#"><img src="images/i.png" alt="인스타그램"></a></li>
+                </ul>
+            </div>
+ 
+        </footer>
+    </div>
+</body>
+</html>
